@@ -1,0 +1,72 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": [
+          "Hola",
+          "Qué tal?",
+          "Hay alguien allí?",
+          "Buenos dias",
+          "Buen dia"
+        ],
+        "responses": [
+          "Hola :^)",
+          "Hola, gracias por la visita",
+          "Hola, qué puedo hacer por ti?",
+          "Hola, cómo puedo ayudarte?"
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Nos vemos luego", "Hasta la próxima"],
+        "responses": [
+          "Hasta luego, gracias por tu visita",
+          "Ten un buen dia",
+          "Chau, espero verte de nuevo."
+        ]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Gracias a ti", "Que útil", "Muchas gracias!"],
+        "responses": ["Feliz de ayudar!", "A la orden!", "Me conmueves"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Qué cosas tienes?",
+          "Qué tipo de cosas hay aquí?",
+          "Posees algo?"
+        ],
+        "responses": [
+          "Todo menos tu cora </3",
+          "Tengo un red neuronal en mi interior",
+          "Mucha matemática que te gustará"
+        ]
+      },
+      {
+        "tag": "pagos",
+        "patterns": [
+          "Aceptas tarjetas de crédito?",
+          "Aceptas Mastercard?",
+          "Puedo pagar con Paypal?",
+          "Aceptas dinero en efectivo?"
+        ],
+        "responses": [
+          "Acepto visa, o yape",
+          "Intenta conseguir bitcoins y luego hablamos de pagos"
+        ]
+      },
+      {
+        "tag": "divertido",
+        "patterns": [
+          "Cuéntame un chiste!",
+          "Dime algo divertido!",
+          "Conoces un chiste?"
+        ],
+        "responses": [
+          "Qué son 50 químicos y 50 físicos juntos? 100tifikos.",
+          "Cómo se llama el compuesto químico para evitar el embarazo? Nitrato de Meterla"
+        ]
+      }
+    ]
+  }

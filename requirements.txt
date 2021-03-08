@@ -1,0 +1,4 @@
+nltk==3.5
+numpy
+torch
+torchtext==0.6.0
